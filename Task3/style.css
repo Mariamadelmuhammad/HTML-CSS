@@ -1,0 +1,6 @@
+div,p,span{
+     font-family: "Lucida Calligraphy";
+}
+div > p{
+    text-align: center;
+}

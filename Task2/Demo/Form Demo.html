@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1> Form Demo</h1>
+
+    <h2>Registration</h2>
+    <form action="Home.html" method="post">
+        <fieldset>
+            <legend>Register</legend>
+        <label for="UserName">UserName: </label>
+        <input type="text" id="UserName" value="Enter Your Name" size="20" maxlength="10" name="UserName">
+        <br><br>
+        <label for="Pass">Password: </label>
+        <input type="password" id="Pass" size="20" tabindex="2">
+        <br><br>
+        <label for="Comments">Comments</label>
+        <textarea cols="20" rows="10">
+            Leave a Comment
+        </textarea>
+        <br><br>
+        <label>Hoppies:</label>
+        <input type="checkbox" value="Reading" name="H1" checked> Reading
+        <input type="checkbox" value="Swimming" name="H2"> Swimming
+        <input type="checkbox" value="Running" name="H3"> Running
+        <br><br>
+        <label>Courses:</label>
+        <input type="checkbox"  name="C1"> HTML
+        <input type="checkbox" value="CSS" name="C2"> CSS
+        <input type="checkbox" value="JS" name="C3"> JS
+        <br><br>
+        <label for="G">Gender:</label>
+        <input type="radio" value="Female" name="G" id="G" checked>Female
+        <input type="radio" value="Male" name="G" >Male
+        <br><br>
+
+        <label>Branches:</label>
+        <select size="2" multiple>
+            <option selected>Minia</option>
+            <option>Smart</option>
+            <option>Asuit</option>
+        </select>
+
+<br><br>
+        <input type="submit">
+        <input type="reset">
+        <input type="image" src="Resources/ITI.png" width="50px" height="50px">
+        <button value="OK">OK</button>
+
+    </fieldset>
+    </form>
+
+    <button value="OK">OK</button>
+
+</body>
+</html>
